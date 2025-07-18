@@ -1,13 +1,13 @@
 # ML-F1-model
 machine learning model for Formula 1 datasets 
 
-# 🏎️ F1 Fatal Accidents Analysis & Session Prediction with Machine Learning
+# F1 Fatal Accidents Analysis & Session Prediction with Machine Learning
 
 This project explores and models historical data from fatal Formula 1 accidents to **predict the session type** (e.g., Practice, Qualifying, Race) using machine learning techniques. The primary model used is a **Random Forest Classifier**, applied to driver-related accident data.
 
 ---
 
-## 📂 Dataset Overview
+##  Dataset Overview
 
 The project uses four CSV datasets:
 
@@ -18,7 +18,7 @@ The project uses four CSV datasets:
 
 ---
 
-## 🧠 Objective
+##  Objective
 
 - Preprocess and clean the accident datasets
 - Encode categorical features and engineer new features
@@ -27,7 +27,7 @@ The project uses four CSV datasets:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python (Google Colab)
 - Pandas & NumPy
@@ -36,7 +36,7 @@ The project uses four CSV datasets:
 
 ---
 
-## 📊 Feature Engineering
+##  Feature Engineering
 
 - Label encoding of `Driver`, `Event`, `Car`, and `Session`
 - Computed ratios like:
@@ -47,7 +47,7 @@ The project uses four CSV datasets:
 
 ---
 
-## 🤖 Model
+##  Model
 
 - **RandomForestClassifier**
   - `class_weight="balanced"` to account for class imbalance
@@ -56,7 +56,7 @@ The project uses four CSV datasets:
 
 ---
 
-## ✅ Evaluation Metrics
+## Evaluation Metrics
 
 - **Accuracy Score**
 - **Confusion Matrix**
@@ -73,7 +73,7 @@ Example:
 
 ---
 
-## 📈 Suggestions for Improvement
+##  Suggestions for Improvement
 
 - Add more predictive features (weather, team data, circuit type)
 - Try other models (e.g., XGBoost, CatBoost)
@@ -82,6 +82,6 @@ Example:
 
 ---
 
-## 🗂️ Folder Structure
+##  Folder Structure
 
 

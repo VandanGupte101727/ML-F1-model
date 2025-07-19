@@ -71,17 +71,9 @@ Example:
 | 4              | 4                 |
 | 2              | 1                 |
 
----
-
-##  Suggestions for Improvement
-
-- Add more predictive features (weather, team data, circuit type)
-- Try other models (e.g., XGBoost, CatBoost)
-- Apply advanced sampling techniques (SMOTE, undersampling)
-- Map encoded session values back to readable labels
 
 ---
 
-##  Folder Structure
+
 
 
